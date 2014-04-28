@@ -1,3 +1,5 @@
+require 'colorize' # this would need a Gemfile
+
 alley_cat = true #File.exists?('./asdf/zxcv/alley_cat.png')
 
 print '1. '
