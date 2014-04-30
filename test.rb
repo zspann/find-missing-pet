@@ -18,9 +18,9 @@ class Animal
     LOCATIONS.each_with_index do |(animal_name, file_path), index|
       print "#{index+1}. "
       if file_path == true
-        puts "You took #{create_name(animal_name)} home!".colorize('green')
+        puts "You took #{create_name(animal_name)} home!".colorize(:green)
       else
-        puts "#{create_name(animal_name)} is still missing!".colorize('red')
+        puts "#{create_name(animal_name)} is still missing!".colorize(:red)
       end
     end
   end
