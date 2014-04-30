@@ -14,12 +14,19 @@ Because you're a computer genius, you know the most efficient (and awesome) way 
 As a refresher, here's a list of commands to help you with this task:
 
 `pwd`: Present Working Directory shows you where you are
+
 `cd ..`: change your current directory to the parent (one above it)
+
 `ls`: list all files and directories
+
 `mv`: move a file
 
 Remember, it's always helpful to know where you are in your directory tree in relation to where you want to go. Keep that in mind as you write out your command-line paths!
 
 ## Checking Your Work
 
+First, run `bundle install`. This is going to load the gems in the `Gemfile`.
+
 From the `find-missing-pet` directory, just run `ruby test.rb` to check your progress! 
+
+If everything prints green, you've successfully brought all the animals home!
