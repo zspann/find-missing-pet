@@ -1,5 +1,5 @@
 ---
-  tags: command-line, bash
+  tags: command-line, bash, kids
   languages: bash
 ---
 
