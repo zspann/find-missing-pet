@@ -27,6 +27,6 @@ Remember, it's always helpful to know where you are in your directory tree in re
 
 First, run `bundle install`. This is going to load the gems in the `Gemfile`.
 
-From the `find-missing-pet` directory, just run `ruby test.rb` to check your progress! 
+From the `find-missing-pet` directory, just run `ruby test.rb` to check your progress! This file will also tell you the correct locations for the animals!
 
 If everything prints green, you've successfully brought all the animals home!
