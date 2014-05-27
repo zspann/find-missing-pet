@@ -13,7 +13,7 @@ Because you're a computer genius, you know the most efficient (and awesome) way 
 
 As a refresher, here's a list of commands to help you with this task:
 
-`pwd`: Present Working Directory shows you where you are
+`pwd`: Print Working Directory shows you where you are
 
 `cd ..`: change your current directory to the parent (one above it)
 
