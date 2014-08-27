@@ -7,7 +7,7 @@
 
 ## Instructions
 
-You just began your job as Web Developer at the Animal Sanctuary and they've got decent way for organizing photos of their favorite alumni animals, but unfortunately, something went wrong and most photos aren't in their right folders! It's your job to move through their directory structure and put the animals in their right place. The photos have been named really well, so figuring out their correct location shouldn't be too tricky.
+You just began your job as Web Developer at the Animal Sanctuary and they've got a decent way for organizing photos of their favorite alumni animals, but unfortunately, something went wrong and most photos aren't in their right folders! It's your job to move through their directory structure and put the animals in their right place. The photos have been named really well, so figuring out their correct location shouldn't be too tricky.
 
 Because you're a computer genius, you know the most efficient (and awesome) way is to navigate the directory on the command line. Use your bash command-line skills to get the photos in their correct folders!
 
@@ -25,8 +25,8 @@ Remember, it's always helpful to know where you are in your directory tree in re
 
 ## Checking Your Work
 
-First, run `bundle install`. This is going to load the gems in the `Gemfile`.
+First, run `bundle install`. This is going to load the gems in the `Gemfile`. You don't need to worry about this right now. You'll learn about gems later in the course.
 
-From the `find-missing-pet` directory, just run `ruby test.rb` to check your progress! This file will also tell you the correct locations for the animals!
+From the `find-missing-pet` directory, just run `ruby test.rb` to check your progress! `test.rb` contains code that will check your placement of the animals to see if they are in the right place or not. This file will also print the result to the terminal screen, so you can keep track of which animals you've brought home.
 
 If everything prints green, you've successfully brought all the animals home!
