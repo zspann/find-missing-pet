@@ -1,6 +1,8 @@
 ---
   tags: command-line, bash, kids
   languages: bash
+  level: 1
+  type: lab
 ---
 
 # Find the Missing Pet!
