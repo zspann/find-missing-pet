@@ -25,10 +25,18 @@ As a refresher, here's a list of commands to help you with this task:
 
 Remember, it's always helpful to know where you are in your directory tree in relation to where you want to go. Keep that in mind as you write out your command-line paths!
 
-## Checking Your Work
+## Get the files and set up.
 
-First, run `bundle install`. This is going to load the gems in the `Gemfile`. You don't need to worry about this right now. You'll learn about gems later in the course.
+Go to [this github link](https://github.com/flatiron-school-curriculum/find-missing-pet) and click on the "Download Zip" button on the bottom-right side of the screen. Once you've downloaded the file, double click it to unzip the file, and then drag the unzipped file (called 'find-missing-pet-master') to your desktop.
 
-From the `find-missing-pet` directory, just run `ruby test.rb` to check your progress! `test.rb` contains code that will check your placement of the animals to see if they are in the right place or not. This file will also print the result to the terminal screen, so you can keep track of which animals you've brought home.
+Open your terminal and cd into desktop using `cd Destop` and then cd into the file by typing `cd find-missing-pet-master`.
+
+From here, run `bundle install`. This is going to load the gems in the `Gemfile`. You don't need to worry about this right now. You'll learn about gems later in the course.
+
+## Get working!
+
+From the `find-missing-pet-master` directory,  run `ruby test.rb` to check your progress! `test.rb` contains code that will check your placement of the animals to see if they are in the right place or not. This file will also print the result to the terminal screen, so you can keep track of which animals you've brought home.
+
+Use the commands we've learned to move the animals to their right places!
 
 If everything prints green, you've successfully brought all the animals home!
