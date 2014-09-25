@@ -29,9 +29,9 @@ Remember, it's always helpful to know where you are in your directory tree in re
 
 Go to [this github link](https://github.com/flatiron-school-curriculum/find-missing-pet) and click on the "Download Zip" button on the bottom-right side of the screen. Once you've downloaded the file, double click it to unzip the file, and then drag the unzipped file (called 'find-missing-pet-master') to your desktop.
 
-Open your terminal and cd into desktop using `cd Destop` and then cd into the file by typing `cd find-missing-pet-master`.
+Open your terminal and cd into desktop using `cd Desktop` and then cd into the file by typing `cd find-missing-pet-master`.
 
-From here, run `bundle install`. This is going to load the gems in the `Gemfile`. You don't need to worry about this right now. You'll learn about gems later in the course.
+From here, run `bundle install` in your terminal. This is going to load the gems in the `Gemfile`. You don't need to worry about this right now. You'll learn about gems later in the course.
 
 ## Get working!
 
