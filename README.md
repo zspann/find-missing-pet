@@ -27,7 +27,7 @@ Remember, it's always helpful to know where you are in your directory tree in re
 
 ## Get the files and set up.
 
-Go to [this github link](https://github.com/flatiron-school-curriculum/find-missing-pet) and click on the "Download Zip" button on the bottom-right side of the screen. Once you've downloaded the file, double click it to unzip the file, and then drag the unzipped file (called 'find-missing-pet-master') to your desktop.
+Go to the github link at the top of the page and click on the "Download Zip" button on the bottom-right side of the screen. Once you've downloaded the file, double click it to unzip the file, and then drag the unzipped file (called 'find-missing-pet-master') to your desktop.
 
 Open your terminal and cd into desktop using `cd Desktop` and then cd into the file by typing `cd find-missing-pet-master`.
 
