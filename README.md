@@ -33,6 +33,10 @@ Open your terminal and cd into desktop using `cd Desktop` and then cd into the f
 
 From here, run `bundle install` in your terminal. This is going to load the gems in the `Gemfile`. You don't need to worry about this right now. You'll learn about gems later in the course.
 
+## Did you get an error message?
+
+No prob. Try typing `sudo bundle install`. It will prompt you for your admin password. If this goes through, continue to "Get working". If you still get an error, try typing `sudo gem install bundler`. If it prompts you, enter your password. This may take a while, as it has to go out to the internet, and pull it down. Once that's finished, and you have your normal prompt, do the `bundle install` command.
+
 ## Get working!
 
 From the `find-missing-pet-master` directory,  run `ruby test.rb` to check your progress! `test.rb` contains code that will check your placement of the animals to see if they are in the right place or not. This file will also print the result to the terminal screen, so you can keep track of which animals you've brought home.
