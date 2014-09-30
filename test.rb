@@ -9,14 +9,11 @@ class Animal
     :north_american_wild_cat => './cats/outdoor/north-america/north-american-wild-cat.jpg',
     :grandma_cat => './cats/indoor/grandmas-house/grandma-cat.jpg',
     :herding_dog => './dogs/domestic/herding/herding_dog.jpg',
-    :hound_dog => './dogs/domestic/hound/hound_dog.jpg',
     :toy_dog => './dogs/domestic/toy/toy_dog.jpg',
     :australian_wild_dog => './dogs/wild/australia/australian-wild-dog.jpg',
     :wolf => './dogs/wild/USA/wolf.jpg',
     :circus_elephant => './elephants/circus/circus-elephant.jpg',
     :painting_elephant => './elephants/painters/painting-elephants.jpg',
-    :caged_iguana => './iguanas/caged/caged-iguana.jpg',
-    :free_roam_iguana => './iguanas/free-roam/free-roaming-iguana.jpg'
   }
 
   def self.create_name(animal)
