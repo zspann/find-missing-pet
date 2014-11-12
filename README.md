@@ -15,13 +15,13 @@ Because you're a legit programmer, you know the most efficient way is to navigat
 
 As a refresher, here's a list of commands to help you with this task:
 
-`pwd`: Print Working Directory - shows you where you are
+`pwd` Print Working Directory - shows you where you are
 
-`cd ..`: Change Directory - change your current directory to the parent (one above it)
+`cd ..` Change Directory - change your current directory to the parent (one above it)
 
-`ls`: List - list all files and directories
+`ls` List - list all files and directories
 
-`mv`: Move - move a file
+`mv` Move - move a file
 
 Remember, it's always helpful to know where you are in your directory tree in relation to where you want to go. Keep that in mind as you write out your command-line paths!
 
