@@ -5,9 +5,9 @@
   type: lab
 ---
 
-## Find the Missing Pet!
+## Find the Missing Pet
 
-![Missing Pet](http://www.blogcdn.com/blog.moviefone.com/media/2010/11/misterbisson.jpg)
+<img src="http://www.blogcdn.com/blog.moviefone.com/media/2010/11/misterbisson.jpg" alt="Missing pet" height="200">
 
 ### Instructions
 
