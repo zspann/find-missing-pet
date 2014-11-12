@@ -8,16 +8,19 @@
 ## Find the Missing Pet
 
 ### Instructions
-<p><img src="http://www.blogcdn.com/blog.moviefone.com/media/2010/11/misterbisson.jpg" alt="Missing pet" height="200" align="left">
-You just began your job as Web Developer at the Animal Sanctuary, and they aren't very good at organizing the photos of their favorite alumni animals. Somehow all photos ended up in the wrong folders! It's your job to move through their directory structure and put the animals in their right place. The photos have been named really well, so figuring out their correct location shouldn't be too tricky.</p>
+<img src="http://www.blogcdn.com/blog.moviefone.com/media/2010/11/misterbisson.jpg" alt="Missing pet" height="200" align="left" hspace="20">
+You just began your job as Web Developer at the Animal Sanctuary, and they aren't very good at organizing the photos of their favorite alumni animals. Somehow all photos ended up in the wrong folders! It's your job to move through their directory structure and put the animals in their right place. The photos have been named really well, so figuring out their correct location shouldn't be too tricky.
 
 Because you're a legit programmer, you know the most efficient way is to navigate the directories on the command line. Use your bash command line skills to move the photos into their correct folders!
 
 As a refresher, here's a list of commands to help you with this task:
 
 `pwd`: Print Working Directory - shows you where you are
+
 `cd ..`: Change Directory - change your current directory to the parent (one above it)
+
 `ls`: List - list all files and directories
+
 `mv`: Move - move a file
 
 Remember, it's always helpful to know where you are in your directory tree in relation to where you want to go. Keep that in mind as you write out your command-line paths!
