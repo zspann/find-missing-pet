@@ -25,7 +25,7 @@ As a refresher, here's a list of commands to help you with this task:
 
 Remember, it's always helpful to know where you are in your directory tree in relation to where you want to go. Keep that in mind as you write out your command-line paths!
 
-## Get the files and set up
+### Get the files and set up
 
 Go to the GitHub link at the top of the page and click on the "Download Zip" button on the bottom-right side of the screen. Once you've downloaded the file, double click it to unzip the file, and then drag the unzipped file (called 'find-missing-pet-master') to your desktop.
 
