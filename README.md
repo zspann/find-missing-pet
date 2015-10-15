@@ -60,7 +60,7 @@ mv painting-elephants.jpg painters
 BUT WOW that's a lot of steps. Programming is all about making things simple, so there has to be a better way. In fact, we can actually combine all the steps into one short line:
 
 ```bash
-mv cats/indor/back-alley/painting-elephants.jpg elephants/painters
+mv cats/indoor/back-alley/painting-elephants.jpg elephants/painters
 ```
 
 For this, we're using `relative paths`. We're inside of the `find-missing-pet` directory, and we're not going to use `cd` to move ourselves anywhere.Because `painting-elephants.jpg` doesn't exist inside the `find-missing-pet` directory, we have to tell the computer the path to go to find that image, which is through the `cats` directory, and then `indoor` and then finally `back-alley`.
