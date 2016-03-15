@@ -17,11 +17,11 @@ As a refresher, here's a list of commands to help you with this task:
 Remember, it's always helpful to know where you are in your directory tree in relation to where you want to go. Keep that in mind as you write out your command-line paths!
 
 ### Get the files and set up
-At the top of the page, click the "Open In Nitrous" link. This will open a new Nitrous IDE tab in your browser that will have forked the project repopository to your GitHub account and also cloned your forked repository to your Nitrous virtual environment. Once in Nitrous, you will:
+Let's first grab the files you'll need from Github.
 
-+ See "Current lab" and "Lab directory" printed at the top of the command line. This reminds you what lab you are working on and in what directory you will be working. 
++ At the top of the page, click the "Open" link. This will "Fork" the lab in Github, and download it to your local machine. You will automatically `cd` into the directory of the project in your terminal.
 
-+ Have been placed in the "Lab directory" so that you can start working immediately! (What command would you run to make sure that you are actually in the "Lab directory" listed?)
++ You have been placed in the "Lab directory" so that you can start working immediately! (What command would you run to make sure that you are actually in the "Lab directory" listed?)
 
 Now that you are in your project directory, run `bundle install` in your terminal. This is going to load the gems in the `Gemfile`. You don't need to worry about this right now. You'll learn about gems later in the course.
 
@@ -31,7 +31,7 @@ No prob. Try typing `sudo bundle install`. It will prompt you for your computer'
 
 ### Get working!
 
-From the `find-missing-pet-master` directory,  run `ruby test.rb` to check your progress! `test.rb` contains code that will check your placement of the animals to see if they are in the right place or not. This file will also print the result to the terminal screen, so you can keep track of which animals you've brought home.
+From the `find-missing-pet-master` directory,  run `ruby test.rb` in the terminal to check your progress! `test.rb` contains code that will check your placement of the animals to see if they are in the right place or not. This file will also print the result to the terminal screen, so you can keep track of which animals you've brought home.
 
 Use the commands we've learned to move the animals to their right places. If everything prints green, you've successfully organized all the Animal Sanctuary's adorable animal pics!
 <br>
