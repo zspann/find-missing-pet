@@ -19,19 +19,13 @@ Remember, it's always helpful to know where you are in your directory tree in re
 ### Get the files and set up
 Let's first grab the files you'll need from Github.
 
-+ At the top of the page, click the "Open" link. This will "Fork" the lab in Github, and download it to your local machine. You will automatically `cd` into the directory of the project in your terminal.
++ Easy: Click the "Clone or Download" button and then download this repo as a Zip file. Unzip it and move the unzipped folder to your development directory.
 
-+ You have been placed in the "Lab directory" so that you can start working immediately! (What command would you run to make sure that you are actually in the "Lab directory" listed?)
++ Pro (Try this first): 'Fork' the repository and then clone it by clicking the "Clone or Download" button and then copying the SSH adress it gives you. In the terminal, navigate to your development directory and type `git clone SSH-ADDRESS` replacing SSH-ADDRESS with what you copied from github (it should look something like `git@github.com:upperlinecode/find-missing-pet.git`)
 
-Now that you are in your project directory, run `bundle install` in your terminal. This is going to load the gems in the `Gemfile`. You don't need to worry about this right now. You'll learn about gems later in the course.
-
-### Did you get an error message?
-
-No prob. Try typing `sudo bundle install`. It will prompt you for your computer's admin password. If this goes through, continue to the next section of this README. If you still get an error, try typing `sudo gem install bundler`. If it prompts you, enter your password. This may take a while, as it has to connect to the internet and download it. Once that's finished, and you have your normal prompt, do the `bundle install` command.
++ Type `ls` to make sure that the folder was downloaded and then `cd` into that folder.
 
 ### Get working!
-
-From the `find-missing-pet-master` directory,  run `ruby test.rb` in the terminal to check your progress! `test.rb` contains code that will check your placement of the animals to see if they are in the right place or not. This file will also print the result to the terminal screen, so you can keep track of which animals you've brought home.
 
 Use the commands we've learned to move the animals to their right places. If everything prints green, you've successfully organized all the Animal Sanctuary's adorable animal pics!
 <br>
@@ -63,7 +57,6 @@ BUT WOW that's a lot of steps. Programming is all about making things simple, so
 mv cats/indoor/back-alley/painting-elephants.jpg elephants/painters
 ```
 
-For this, we're using `relative paths`. We're inside of the `find-missing-pet` directory, and we're not going to use `cd` to move ourselves anywhere.Because `painting-elephants.jpg` doesn't exist inside the `find-missing-pet` directory, we have to tell the computer the path to go to find that image, which is through the `cats` directory, and then `indoor` and then finally `back-alley`.
+For this, we're using `relative paths`. We're inside of the `find-missing-pet` directory and we're not going to use `cd` to move ourselves anywhere. Because `painting-elephants.jpg` doesn't exist inside the `find-missing-pet` directory, we have to tell the computer the path to go to find that image, which is through the `cats` directory, and then `indoor` and then finally `back-alley`.
 
-Next, we have to tell the computer where to move the image. Because we're inside `find-missing-pet` and so is the `elephants` directory, we can just go straight there, and then into `painters`.
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/find-missing-pet' title='Find the Missing Pet'>Find the Missing Pet</a> on Learn.co and start learning to code for free.</p>
+Next, we have to tell the computer where to move the image. Because we're inside `find-missing-pet` and so is the `elephants` directory, we can just go straight there, and then into `painters`. Try moving some of the pets using this shortened technique!
