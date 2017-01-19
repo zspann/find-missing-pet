@@ -73,4 +73,4 @@ Since we can't access `painters` from where we currently are in the command line
 
 ### How do I know if I'm finished?
 
-Do you feel comfortable moving files around? Have you moved the animals to their correct locations?
+Do you feel comfortable moving files around? Have you moved the animals to their correct locations? The goal of this exercise is to get you comfortable navigating the command line and moving files around. If you feel good about this, move ahead!
