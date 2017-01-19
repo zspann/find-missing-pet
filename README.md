@@ -60,3 +60,17 @@ mv cats/indoor/back-alley/painting-elephants.jpg elephants/painters
 For this, we're using `relative paths`. We're inside of the `find-missing-pet` directory and we're not going to use `cd` to move ourselves anywhere. Because `painting-elephants.jpg` doesn't exist inside the `find-missing-pet` directory, we have to tell the computer the path to go to find that image, which is through the `cats` directory, and then `indoor` and then finally `back-alley`.
 
 Next, we have to tell the computer where to move the image. Because we're inside `find-missing-pet` and so is the `elephants` directory, we can just go straight there, and then into `painters`. Try moving some of the pets using this shortened technique!
+
+### A Common Pitfall
+
+Unfortunately the `mv` command actually has two uses: to move files, and to **rename** files. If you're trying to move a file and the place you are moving it to does not exist (maybe because your path isn't correct) what will happen is that you'll rename your file with the destination you were trying to provide. Using the example above I've removed the reference to the 'elephants' directory that the 'painters' directory:
+
+```bash
+mv cats/indoor/back-alley/painting-elephants.jpg painters
+```
+
+Since we can't access `painters` from where we currently are in the command line, the `painting-elephants.jpg` file will be renamed to `painters`. Oy. This can get confusing. If this happens, just use mv to rename the file back to its original name.
+
+### How do I know if I'm finished?
+
+Do you feel comfortable moving files around? Have you moved the animals to their correct locations?
